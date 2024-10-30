@@ -16,9 +16,9 @@ app.use(express.json())
 
 app.use("/api", questionRouter)
 
+connectToMongoDB();
 
 app.listen(port, () => {
-    connectToMongoDB();
     console.log("Server started")
 })
 

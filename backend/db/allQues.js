@@ -69,7 +69,6 @@ const questions = [
     { text: 'What will you see about yourself in next 5 year ?', topic: 'Non-Tech' },
     { text: 'How long use stay in the company ?', topic: 'Non-Tech' },
     { text: 'Why this company ?', topic: 'Non-Tech' },
-
 ];
 
 module.exports = questions;
